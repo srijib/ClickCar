@@ -1,0 +1,11 @@
+ <?php
+ $birthString = '' . $birthYear. '-' . $birthMonth . '-' . $birthDay . '';
+            // convert date to timestamp
+            $timestamp = strtotime($birthString);
+            $todayTimestamp = strtotime();
+            
+            // check if age is older than 18
+            if(($todayTimestamp - $timestamp) < 18){
+                echo'<div id="eMessage">You must be <b>18</> to join.</div>';
+            }
+?>
