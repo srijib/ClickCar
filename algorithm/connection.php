@@ -5,10 +5,6 @@
 
 
 
-/*$db_host = "localhost";
-$db_username = "root"; 
-$db_pass = "root"; 
-$db_name = "clipstring";*/
 
 $db_host = "localhost";
 $db_username = ""; 
